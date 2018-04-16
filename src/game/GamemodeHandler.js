@@ -3,6 +3,7 @@ import KnockOff from './gamemodes/KnockOff';
 import settings from '../config';
 import KnockOffRandom from './gamemodes/KnockOffRandom';
 import KnockOffDynamic from './gamemodes/KnockOffDynamic';
+import Hockey from './gamemodes/Hockey';
 
 /*
 Singleton class for handling gamemode storage and selection
@@ -11,6 +12,7 @@ class GMHandlerClass {
   constructor() {
     // List of all available gamemodes
     this.gamemodes = {
+      hockey: Hockey,
       knockOff: KnockOff,
       knockOffRandom: KnockOffRandom,
       knockOffDynamic: KnockOffDynamic,

@@ -3,8 +3,8 @@ Configuration file for different project parameters.
 */
 
 const settings = {
-  skipmenu: false,
-  defaultGamemode: 'knockOff',
+  skipmenu: true,
+  defaultGamemode: 'hockey',
   game: {
     localPlayer: true,
     forceCanvas: true,
