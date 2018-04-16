@@ -48,7 +48,7 @@ class Hockey extends Gamemode {
     line.staticFriction = 0;
     line.dynamicFriction = 0;
     line.restitution = 1;
-    line.collisionGroup = 1;
+    line.collisionGroup = 0;
     this.game.entityHandler.register(line);
     return line;
   }
